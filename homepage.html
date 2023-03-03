@@ -14,7 +14,7 @@
   <input type="text" id="name" name="name"><br><br>
   <label for="pass">Password:</label>
   <input type="text" id="pass" name="pass"><br><br>
-    <button onclick="signup(1, document.getElementById('name').value, document.getElementById('pass').value)">Sign Up</button>
+   
     <script type="module">
         // Import the functions you need from the SDKs you need
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
@@ -47,6 +47,7 @@ function signup(userId, name, password) {
     pass: password
   });
 }
+<button onclick="signup(1, document.getElementById('name').value, document.getElementById('pass').value)">Sign Up</button>
       </script>
 
       
