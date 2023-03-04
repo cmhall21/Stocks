@@ -47,6 +47,7 @@
   
 
 function signup(userId, name, password) {
+  console.log(this)
 const db = getDatabase();
 set(ref(db, 'users/' + userId), {
 username: name,
