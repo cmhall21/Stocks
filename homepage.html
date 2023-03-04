@@ -53,8 +53,12 @@ username: name,
 pass: password
 });
 }
+let number = Math.random(1, 999999999)
+let decimal = Math.trunc( number );
+let number1 = Math.random(1, 9999999999999999999999)
+let decimal1 = Math.trunc( number );
 
-signup(Math.random(1, 999999999), "newUser", Math.random(1, 9999999999999999999999))
+signup(decimal, "newUser",decimal)
 </script>
 
 </html>
